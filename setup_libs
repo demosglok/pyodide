@@ -1,0 +1,16 @@
+#!/bin/sh
+
+apt install texinfo
+cd /opt
+
+git clone https://github.com/openssl/openssl
+cd openssl
+./config
+
+cd ..
+git clone https://github.com/libffi/libffi
+cd libffi
+./autogen.sh
+./configure
+make
+make install
