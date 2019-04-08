@@ -1,0 +1,9 @@
+package:
+  name: bytestring-splitter
+  version: 1.0.0
+source:
+  sha256: 2bd4c2d4f6df95b151ab5bbcc507ef18cca9d22c82bc77e9a68e51e078af73bc
+  url: http://192.168.1.111:3000/bytestring-splitter-1.0.0.tar.gz
+test:
+  imports:
+  - bytestring-splitter

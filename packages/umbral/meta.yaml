@@ -1,0 +1,9 @@
+package:
+  name: umbral
+  version: 0.1.3a1
+source:
+  sha256: 02601852b6a31b17db54584e10ea4857312e23fcb84ca04a0e2d0c16d6edabb8
+  url: https://files.pythonhosted.org/packages/a5/4c/78686768028248a9649520f42a48db3a2420d36f4faed6d71709d8222fdc/umbral-0.1.3a1.tar.gz
+test:
+  imports:
+  - umbral

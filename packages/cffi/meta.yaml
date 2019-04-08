@@ -1,0 +1,13 @@
+package:
+  name: cffi
+  version: 1.12.2
+source:
+  sha256: e113878a446c6228669144ae8a56e268c91b7f1fafae927adc4879d9849e0ea7
+  url: https://files.pythonhosted.org/packages/64/7c/27367b38e6cc3e1f49f193deb761fe75cda9f95da37b67b422e62281fcac/cffi-1.12.2.tar.gz
+build:
+  skip_host: False
+  cflags: -I/usr/local/include
+  ldflags: -L/usr/local/lib
+test:
+  imports:
+  - cffi
